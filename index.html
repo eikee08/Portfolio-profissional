@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+<nav>
+<h2>Meu Portfolio</h2>
+
+<ul>
+<li><a href="#sobre">Sobre</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#api">BrasilAPI</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+<img src="eu.webp" alt="Foto">
+
+<h1>Eike Flores</h1>
+
+<p>Estudante de Analise e Desenvolvimento de Sistemas</p>
+
+<a href="#contato" class="btn">Fale comigo</a>
+</section>
+
+<section id="sobre">
+<h2>Sobre Mim</h2>
+
+<div class="card">
+<p>
+Sou estudante de Análise e Desenvolvimento de Sistemas e estou focando meus estudos em desenvolvimento Back-end. Gosto de programação, de aprender tecnologias novas e de criar soluções que realmente funcionem.
+Sempre procuro colocar em prática o que aprendo e melhorar um pouco a cada projeto. Meu objetivo é evoluir como desenvolvedor e ganhar cada vez mais experiência na área de tecnologia. 
+     </p>
+     </div>
+    </section>
+
+    <section id="skills">
+    <h2>Habilidades</h2>
+
+    <div class="skills">
+    <div class="card">HTML</div>
+     <div class="card">CSS</div>
+     <div class="card">JavaScript</div>
+    <div class="card">Git</div>
+    /div>
+    </section>
+
+<section id="api">
+<h2>Consultas BrasilAPI</h2>
+
+<div class="api-container">
+
+<div class="card">
+<h3>Consultar CEP</h3>
+
+<input type="text" id="cep" placeholder="Digite o CEP">
+
+<button onclick="buscarCEP()">Buscar</button>
+
+<p id="resultadoCep"></p>
+</div>
+
+<div class="card">
+<h3>Consultar CNPJ</h3>
+
+<input type="text" id="cnpj" placeholder="Digite o CNPJ">
+<button onclick="buscarCNPJ()">Buscar</button>
+
+<p id="resultadoCnpj"></p>
+    </div>
+<div class="card">
+<h3>DDD</h3>
+<input type="text" id="ddd" placeholder="Digite o DDD">
+
+<button onclick="buscarDDD()">Buscar</button>
+
+<p id="resultadoDDD"></p>
+ </div>
+
+ </div>
+</section>
+
+<section id="contato">
+<h2>Contato</h2>
+
+<div class="redes">
+ <a href="https://github.com/eikee08" target="_blank">GitHub</a>
+
+<a href="https://www.linkedin.com/in/eike-flores-8a48443a7?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+
+<a href="https://www.instagram.com/eike08_/" target="_blank">Instagram</a>
+    </div>
+    </section>
+
+<script src="scrpit.js"></script>
+
+</body>
+</html>
